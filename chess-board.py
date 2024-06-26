@@ -32,7 +32,7 @@ def placequeen(i, j, arr):
     return arr
 
 # uses octal system to place queens
-for i in range(0, 16777215):
+for i in range(0, 16_777_215):
     array = np.zeros((n, n))
     string = oct(i)[2:]
     while len(string) < 8:
